@@ -20,6 +20,6 @@ Though, whether the program can output in real time the primes you need or if it
 (on i5 4210u@1.7GHz, 8Go DDR3)
 
 - prime.c: counted primes up to 1e6 in 40s
-- prime_sundaram3.c: counted primes up to 1e9 in 1m02s.
+- prime_sundaram3.c: counted primes up to 1e9 in 1m02s, though it had to use a whopping 4Go of RAM to do so.
 
-Both program are single threaded, and pale in comparison to state-of-the-art prime generator such as [primesieve](https://github.com/kimwalisch/primesieve) which achieve counting primes up to 1e9 in 0.180s, and use way less memory
+Both program are single threaded, and pale in comparison to state-of-the-art prime generators such as [primesieve](https://github.com/kimwalisch/primesieve) which achieve counting primes up to 1e9 in 0.180s, and use way less memory

@@ -1,4 +1,4 @@
-a simple take on generating primes in a efficient way.
+a simple take on generating primes in a efficient (or not) way. It also illustrates time vs space(memory) complexity.
 
 prime.c is a simple, slow, but robust implementation that should be able to go up to 2^64-1 (while not in a reasonable time)
 
